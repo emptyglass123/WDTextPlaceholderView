@@ -137,10 +137,6 @@
 }
 -(void)WDTextViewDidChange:(NSNotification *)notification
 {
-    if (self.text == nil || [self.text isEqualToString:@""]) {
-        self.font = [UIFont systemFontOfSize:_defaultFont];
-    }
-    
     if (self.placeholder.length == 0) {
         
         return;
