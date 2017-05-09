@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B17E191EC1677E00C9A8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B17E181EC1677E00C9A8FF /* main.m */; };
+		18B17E1C1EC1677E00C9A8FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B17E1B1EC1677E00C9A8FF /* AppDelegate.m */; };
+		18B17E1F1EC1677E00C9A8FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B17E1E1EC1677E00C9A8FF /* ViewController.m */; };
+		18B17E221EC1677E00C9A8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B17E201EC1677E00C9A8FF /* Main.storyboard */; };
+		18B17E241EC1677E00C9A8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B17E231EC1677E00C9A8FF /* Assets.xcassets */; };
+		18B17E271EC1677E00C9A8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B17E251EC1677E00C9A8FF /* LaunchScreen.storyboard */; };
+		18B17E301EC1680100C9A8FF /* WDTextPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B17E2F1EC1680100C9A8FF /* WDTextPlaceholderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B17E141EC1677D00C9A8FF /* TextView重写.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextView重写.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B17E181EC1677E00C9A8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B17E1A1EC1677E00C9A8FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B17E1B1EC1677E00C9A8FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B17E1D1EC1677E00C9A8FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B17E1E1EC1677E00C9A8FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B17E211EC1677E00C9A8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B17E231EC1677E00C9A8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B17E261EC1677E00C9A8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B17E281EC1677E00C9A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B17E2E1EC1680100C9A8FF /* WDTextPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTextPlaceholderView.h; sourceTree = "<group>"; };
+		18B17E2F1EC1680100C9A8FF /* WDTextPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTextPlaceholderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B17E111EC1677D00C9A8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B17E0B1EC1677D00C9A8FF = {
+			isa = PBXGroup;
+			children = (
+				18B17E161EC1677D00C9A8FF /* TextView重写 */,
+				18B17E151EC1677D00C9A8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B17E151EC1677D00C9A8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B17E141EC1677D00C9A8FF /* TextView重写.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B17E161EC1677D00C9A8FF /* TextView重写 */ = {
+			isa = PBXGroup;
+			children = (
+				18B17E1A1EC1677E00C9A8FF /* AppDelegate.h */,
+				18B17E1B1EC1677E00C9A8FF /* AppDelegate.m */,
+				18B17E1D1EC1677E00C9A8FF /* ViewController.h */,
+				18B17E1E1EC1677E00C9A8FF /* ViewController.m */,
+				18B17E201EC1677E00C9A8FF /* Main.storyboard */,
+				18B17E231EC1677E00C9A8FF /* Assets.xcassets */,
+				18B17E251EC1677E00C9A8FF /* LaunchScreen.storyboard */,
+				18B17E281EC1677E00C9A8FF /* Info.plist */,
+				18B17E171EC1677E00C9A8FF /* Supporting Files */,
+				18B17E2E1EC1680100C9A8FF /* WDTextPlaceholderView.h */,
+				18B17E2F1EC1680100C9A8FF /* WDTextPlaceholderView.m */,
+			);
+			path = "TextView重写";
+			sourceTree = "<group>";
+		};
+		18B17E171EC1677E00C9A8FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B17E181EC1677E00C9A8FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B17E131EC1677D00C9A8FF /* TextView重写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B17E2B1EC1677E00C9A8FF /* Build configuration list for PBXNativeTarget "TextView重写" */;
+			buildPhases = (
+				18B17E101EC1677D00C9A8FF /* Sources */,
+				18B17E111EC1677D00C9A8FF /* Frameworks */,
+				18B17E121EC1677D00C9A8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextView重写";
+			productName = "TextView重写";
+			productReference = 18B17E141EC1677D00C9A8FF /* TextView重写.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B17E0C1EC1677D00C9A8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WD;
+				TargetAttributes = {
+					18B17E131EC1677D00C9A8FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18B17E0F1EC1677D00C9A8FF /* Build configuration list for PBXProject "TextView重写" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B17E0B1EC1677D00C9A8FF;
+			productRefGroup = 18B17E151EC1677D00C9A8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B17E131EC1677D00C9A8FF /* TextView重写 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B17E121EC1677D00C9A8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B17E271EC1677E00C9A8FF /* LaunchScreen.storyboard in Resources */,
+				18B17E241EC1677E00C9A8FF /* Assets.xcassets in Resources */,
+				18B17E221EC1677E00C9A8FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B17E101EC1677D00C9A8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B17E301EC1680100C9A8FF /* WDTextPlaceholderView.m in Sources */,
+				18B17E1F1EC1677E00C9A8FF /* ViewController.m in Sources */,
+				18B17E1C1EC1677E00C9A8FF /* AppDelegate.m in Sources */,
+				18B17E191EC1677E00C9A8FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B17E201EC1677E00C9A8FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B17E211EC1677E00C9A8FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B17E251EC1677E00C9A8FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B17E261EC1677E00C9A8FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B17E291EC1677E00C9A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B17E2A1EC1677E00C9A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B17E2C1EC1677E00C9A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextView重写/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autoday.TextView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B17E2D1EC1677E00C9A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextView重写/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autoday.TextView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B17E0F1EC1677D00C9A8FF /* Build configuration list for PBXProject "TextView重写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B17E291EC1677E00C9A8FF /* Debug */,
+				18B17E2A1EC1677E00C9A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B17E2B1EC1677E00C9A8FF /* Build configuration list for PBXNativeTarget "TextView重写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B17E2C1EC1677E00C9A8FF /* Debug */,
+				18B17E2D1EC1677E00C9A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B17E0C1EC1677D00C9A8FF /* Project object */;
+}
